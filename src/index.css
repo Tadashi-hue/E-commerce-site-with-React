@@ -11,3 +11,248 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* header style*/
+.header{
+  position:fixed;
+  background-color: #52B2BF;
+  width: 100%;
+  padding: 5px;
+}
+.header img{
+  width: 70px;
+  border-radius: 3px;
+}
+/*search style*/
+.search{
+  background-color: white;
+  position:fixed; top:9%;
+  width:100%;
+  padding: 5px;
+  box-shadow: 4px 5px 6px #888888;
+}
+.search td{
+  padding: 10px;
+  width: 6cm;
+}
+
+/*button style*/
+.button button{
+  border-style: none;
+  border-radius: 5px;
+  width:4cm;
+  height: 1cm;
+  background-color: rgb(78, 78, 233);
+  font-family: arial;
+  font-size: 1em;
+  color: white;
+}
+/*Input style*/
+.input input[type="text"]{
+  border-style: solid;
+  border-color:gray;
+  height: 1cm;
+  font-family: arial;
+  color:gray;
+  font-size: 1em;
+  border-radius: 5px;
+  width:8cm;
+}
+.input input[type="password"]{
+  border-style: solid;
+  border-color:gray;
+  height: 1cm;
+  font-family: arial;
+  color:gray;
+  font-size: 1em;
+  border-radius: 5px;
+}
+/*Menu Style*/
+.menu{
+  position:fixed;top:22%;
+  padding-bottom: 10%;
+}
+.menu_element button{
+  width: 4cm;
+  height: 1cm;
+  text-align: center;
+  font-size:1em;
+  border-style:none;
+  color: white;
+  background-color: #52B2BF;
+}
+.menu_element button:hover{
+  background-color:#3897a3 ;
+}
+/*Don't touch very dangerous*/
+.content{
+  padding-top: 4cm;
+  padding-left: 6cm;
+}
+/*--------------*/
+/*Style Product*/
+.product table{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.product td {
+  padding: 10px;
+}
+/*Stle lien*/
+.lien a{
+  font-size:  1em;
+  font-family: arial;
+  text-decoration: none;
+  color: white;
+}
+.lien{
+  background-color: #52B2BF;
+  height: 0.8cm;
+  text-align: center;
+  padding-top: 0.2cm;
+}
+.lien:hover{
+  background-color: #3897a3;
+}
+/*style Cart*/
+.cart{
+  padding-top: 4cm;
+  padding-left: 32%;
+}
+.cart th{
+  width: 3cm;
+  text-align: center;
+  background-color: #7a97d6;
+}
+.cart td{
+  text-align: Right;
+  font-family: arial;
+}
+.cart table{
+  padding: 10px;
+  border-style: none;
+  box-shadow: 5px 10px 18px #888888;
+}
+.cart .lien{
+  width: 13cm;
+
+}
+/*Style pour popup*/
+.menu .popup{
+  padding:10px;
+  padding-top: 1px;
+  background-color: Red;
+  color:black;
+  text-align: center;
+  border-radius: 10px;
+  width:4cm;
+  height:1cm;
+
+}
+/*Style pour identite*/
+.identity{
+  padding-top:2cm;
+  padding-left: 1cm;
+}
+.identity label, .payment label{
+  font-family: 1em;
+  font-family: arial;
+  font-weight: bold;
+  color: gray;
+}
+.identity legend{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1.3em;
+  background-color: #7a97d6;
+  padding: 8px;
+  border-radius: 5px;
+}
+.identity td, .commande td{
+  text-align: center;
+  padding-left: 0.4cm;
+  padding-right: 0.4cm;
+}
+.identity .connexion{
+  position: relative;top:0.5cm; 
+  width: 16cm;
+}
+.identity .inscription{
+  position: relative;top:-4.8cm; left:50%;
+  width: 16cm;
+
+}
+.identity input[type=text], .identity input[type=password],.commande input[type=text],
+.payment input[type=text]{
+  height: 1cm;
+  border-color: gray;
+  border-radius:5px;
+  width:6cm;
+  font-size: 1em;
+}
+.identity input[type=submit], .commande input[type=submit], .payment input[type=submit]{
+  height: 1cm;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgb(78, 78, 233);
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  width:4cm;
+}
+/*style commande*/
+.commande{
+  padding-top:2cm;
+  padding-left: 1cm;
+}
+.commande legend{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1.3em;
+  background-color: #7a97d6;
+  padding: 8px;
+  border-radius: 5px;
+}
+.commande label{
+  font-family: 1em;
+  font-family: arial;
+  font-weight: bold;
+  color: gray;
+}
+#payer{
+  position: relative; left: 40%;
+}
+/*Style payment*/
+.payment{
+  padding-top:5cm;
+  padding-left: 35%;
+}
+.payment td{
+  text-align: center;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+  font-family: arial;
+  font-size: 1em;
+}
+.payment legend{
+  padding-left:3cm;
+  padding-bottom: 1em;
+  font-family: Arial;
+  font-size:1.4em;
+  font-weight: bold;
+}
+
+/*Style terminer*/
+.terminer{
+  padding-top:3cm;
+  padding-left: 35%;
+  font-family: arial;
+  font-size: 1.3em;
+}
+.terminer .retour{
+  position: relative; left:2cm;
+  width:5cm;
+}
+
+
